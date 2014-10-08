@@ -1,14 +1,9 @@
 ---
-title: "MReportingPublic: Oklahoma's MIECHV Evaluation"
+title: "Oklahoma's MIECHV Evaluation"
 ---
 
 ***
 
-### Welcome 
+### The Purpose of this Site 
 
 Welcome to Oklahoma's MIECHV Evaluation. This public-facing site provides aggregate reports and de-identified datasets to communicate the products of Oklahoma's MIECHV evaluation.
-
-
-
-
-
