@@ -1,16 +1,12 @@
 ---
-title: "IALSA tutorials homepage"
+title: "MReportingPublic: Oklahoma's MIECHV Evaluation"
 ---
 
 ***
 
 ### Welcome 
 
-Hello and welcome to the tutorials on Reproducible Research with R (RRR).  
-</br>
-
-This website offers a series of guides and tutorials on reproducible research with [RStudio](rstudio.com).
-
+Welcome to Oklahoma's MIECHV Evaluation. This public-facing site provides aggregate reports and de-identified datasets to communicate the products of Oklahoma's MIECHV evaluation.
 
 
 
