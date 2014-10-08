@@ -63,4 +63,4 @@ Develop or enhance implementation of existing statewide and county level collabo
 # Additional Information
  * For more information about the proposal, please see the
 [official HRSA page](https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&GrantNo=D89MC23154&FY=2012).
- * For more information about the research projects, please see **upcoming page**.
+ * For more information about the outcomes, please see the project's [Research Products](./research_2011a.html) page.
