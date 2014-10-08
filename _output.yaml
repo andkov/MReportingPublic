@@ -3,6 +3,7 @@ html_document:
   theme: united
   highlight: textmate
   mathjax: null
+  toc: true
   toc_depth: 2
   lib_dir: libs
   includes:
@@ -10,3 +11,7 @@ html_document:
     before_body: include/before_body.html
     after_body: include/after_body.html
 
+  md_document:
+    variant: markdown_github
+    toc: true
+    toc_depth: 2
