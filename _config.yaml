@@ -13,3 +13,5 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+logo: favicon.png
