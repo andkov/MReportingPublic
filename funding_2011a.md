@@ -58,8 +58,16 @@ Develop or enhance implementation of existing statewide and county level collabo
  * **Objective 2**: Utilize the state Home Visitation Leadership Advisory Coalition, the Interagency Child Abuse Prevention Task Force and the Early Childhood Advisory Council as partners and collaborators. This objective was initiated during the writing of the grant and will continue through the duration of the grant.
  
  * **Objective 3**: During Year 1 assure each community has a Community Connector dedicated to marketing the home visitation programs, connecting potential participants to programs and facilitating opportunities for home visitation professionals to meet together with other community service providers.
- 
+
+***
+# Logic Model
+![Alt text](./funding_2011a_logic_model.png "Logic Model")
+
 # Additional Information
  * For more information about the proposal, please see the
 [official HRSA page](https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&GrantNo=D89MC23154&FY=2012).
  * For more information about the outcomes, please see the project's [Research Products](./research_2011a.html) page.
+
+***
+# Collaborators
+?David, do you want a list of people like OSDH, OUHSC, OHCA,... ?

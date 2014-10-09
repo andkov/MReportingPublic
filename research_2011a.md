@@ -50,6 +50,9 @@ The overall analysis is progressing from a set of general inquiries to a set of 
 
 We use a literate programming framework and code repository that facilitates agile and reproducible research.  We invite readers to view the analysis code and resulting documents housed in this [GitHub repository](https://github.com/OuhscCcanMiechvEvaluation/MReporting).  However, we ask that you not pass the GitHub  username and password to anyone who did not received it from us.  If you know someone who would like to review the repository, please have them contact [us](william-beasley@ouhsc.edu) and we likely will grant them permission. (Even with the username, no PHI is accessible from the repository; an authorized OUHSC user account is required.)
 
+***
+# Collaborators
+?David, do you want a list of people like OSDH, OUHSC, OHCA,... ?
 
 ***
 # Additional Information

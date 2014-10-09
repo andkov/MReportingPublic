@@ -28,7 +28,14 @@ Understanding of this proposal may benefit from the following resources:
 # Goals and Objectives
 ?
 
+***
+# Logic Model
+![Alt text](./funding_2015a_logic_model.png "Logic Model")
 
 # Additional Information
  * For more information about the RFP, please see the official HRSA page at ?link?.
  * The proposal is due in October 2014, so check in with us a few months after that.
+
+***
+# Collaborators
+?David, do you want a list of people like OSDH, OUHSC, OHCA,... ?
