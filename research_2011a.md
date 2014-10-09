@@ -11,8 +11,7 @@ Project Duration: 2011-2015
 
 > Evaluates MIECHV expansion and enhancement of Evidence-based Home Visitation programs in four Oklahoma counties.
 
-This page contains the products from the 2011 funded proposal, [HRSA/ACF D89MC23154](https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&GrantNo=D89MC23154&FY=2012).
-OUHSC CCAN Independent Evaluation of the State of Oklahoma Competitive Maternal, Infant, and Early Childhood Home Visiting (MIECHV) Project. 
+This page contains the products from the 2011 funded proposal, [HRSA/ACF D89MC23154](https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&GrantNo=D89MC23154&FY=2012): "OUHSC CCAN Independent Evaluation of the State of Oklahoma Competitive Maternal, Infant, and Early Childhood Home Visiting (MIECHV) Project." 
 
 ***
 # Resources and Files
