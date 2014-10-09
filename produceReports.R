@@ -43,33 +43,5 @@ for( pathFile in pathFilesToBuild ) {
                     clean=TRUE)
 }
 
-# testit::assert("The knitr Rmd files should exist.", base::file.exists(pathRmdFiles))
-# # Build the reports
-# for( pathRmd in pathRmdFiles ) {
-#   #   pathMd <- base::gsub(pattern=".Rmd$", replacement=".md", x=pathRmd)
-#   rmarkdown::render(input = pathRmd, 
-#                     output_format=c(
-#                       #                        "pdf_document"
-#                       #                       ,"word_document"
-#                       #                       ,"md_document"
-#                       "html_document"
-#                     ),
-#                     clean=TRUE)
-# }
-
-# testit::assert("The knitr Rmd files should exist.", base::file.exists(pathMDFiles))
-# for( pathMD in pathMDFiles ) {
-#   #   pathMd <- base::gsub(pattern=".Rmd$", replacement=".md", x=pathRmd)
-#   rmarkdown::render(input = pathMD, 
-#                     output_format=c(
-#                       #                        "pdf_document"
-#                       #                       ,"word_document"
-#                       #                       ,"md_document"
-#                       "html_document"
-#                     ),
-#                     clean=TRUE)
-# }
-
-
 # base::system("bundle exec jekyll build")
 # base::system("bundle exec jekyll serve")
