@@ -69,5 +69,9 @@ Develop or enhance implementation of existing statewide and county level collabo
  * For more information about the outcomes, please see the project's [Research Products](./research_2011a.html) page.
 
 ***
-# Collaborators
-?David, do you want a list of people like OSDH, OUHSC, OHCA,... ?
+# Collaborators and Stakeholders
+?David, do you want a list of people like OSDH, OUHSC, OHCA... Anyone else?
+
+ * [OUHSC Pediatrics](./about_collaborators.html#ouhsc-pediatrics)
+ * [OSDH](./about_collaborators.html#osdh)
+ * [OHCA](./about_collaborators.html#ohca)
