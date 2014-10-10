@@ -1,17 +1,4 @@
-# exclude: ['Gemfile', 'Gemfile.lock', 'README.markdown']
-
+exclude: ['Gemfile', 'Gemfile.lock', 'README.markdown']
 permalink: pretty
 highlighter: rouge
 safe: false
-
-# Site details
-lang: en-US
-
-# Jekyll config
-exclude:
-  - Makefile
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-logo: favicon.png
