@@ -16,3 +16,8 @@ From the REDCapR section:
 
 
 We felt there was a need for guidance how to best use REDCap as the source of dynamic statistical reports, as typically used in CQI (similar to how [REDCapR](https://github.com/OuhscBbmc/REDCapR) addressed an unmet need for transferred large datasets with REDCap and R).  This topic was a second presentation at the 2014 [REDCap Conference](https://redcap.vanderbilt.edu/consortium/redcapcon/) (slides are available [here](https://starbrite.vanderbilt.edu/rocket/index.php?doc_id=8580)).  The patterns and practices are currently developed and disseminated on a dedicated [repository](https://github.com/OuhscBbmc/RedcapExamplesAndPatterns).
+
+<a class="btn" href="https://github.com/OuhscBbmc/RedcapExamplesAndPatterns">
+  <i class="fa fa-github fa-lg"></i>
+  REDCap Examples and Patterns on GitHub
+</a>
