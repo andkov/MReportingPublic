@@ -15,7 +15,7 @@ path_index <- base::file.path("./index.Rmd")
 # pathMDFilesFunding <- list.files("./funding", full.names=TRUE, recursive=TRUE)
 # pathMDFiles <- c(pathMDFilesFunding)
 
-patternToBuild <- "(?<!README)\\.(R){0,1}md$" #Gets all 'Rmd' and 'md' files, that aren't named `README`.
+patternToBuild <- "(?<!README).(R){0,1}md$" #Gets all 'Rmd' and 'md' files, that aren't READMEs.
 pathFilesToBuild <- list.files(full.names=TRUE, recursive=TRUE)
 pathFilesToBuild <- grep(patternToBuild, pathFilesToBuild, perl=TRUE, value=TRUE)
 
@@ -36,11 +36,40 @@ for( pathFile in pathFilesToBuild ) {
   rmarkdown::render(input = pathFile, 
                     output_format=c(
                       #                        "pdf_document"
+                      #                       ,"word_document"
                       #                       ,"md_document"
                       "html_document"
                     ),
                     clean=TRUE)
 }
 
+# testit::assert("The knitr Rmd files should exist.", base::file.exists(pathRmdFiles))
+# # Build the reports
+# for( pathRmd in pathRmdFiles ) {
+#   #   pathMd <- base::gsub(pattern=".Rmd$", replacement=".md", x=pathRmd)
+#   rmarkdown::render(input = pathRmd, 
+#                     output_format=c(
+#                       #                        "pdf_document"
+#                       #                       ,"word_document"
+#                       #                       ,"md_document"
+#                       "html_document"
+#                     ),
+#                     clean=TRUE)
+# }
+
+# testit::assert("The knitr Rmd files should exist.", base::file.exists(pathMDFiles))
+# for( pathMD in pathMDFiles ) {
+#   #   pathMd <- base::gsub(pattern=".Rmd$", replacement=".md", x=pathRmd)
+#   rmarkdown::render(input = pathMD, 
+#                     output_format=c(
+#                       #                        "pdf_document"
+#                       #                       ,"word_document"
+#                       #                       ,"md_document"
+#                       "html_document"
+#                     ),
+#                     clean=TRUE)
+# }
+
+
 # base::system("bundle exec jekyll build")
-# Or run this from the terminal to keep RStudio free to execute it's own stuff: `bundle exec jekyll serve`
+# base::system("bundle exec jekyll serve")

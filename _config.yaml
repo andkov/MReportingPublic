@@ -1,4 +1,0 @@
-exclude: ['Gemfile', 'Gemfile.lock', 'README.markdown']
-permalink: pretty
-highlighter: rouge
-safe: false
