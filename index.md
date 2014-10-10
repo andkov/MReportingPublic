@@ -1,6 +1,5 @@
 ---
 title: "Oklahoma's MIECHV Evaluation"
-layout: page
 ---
 
 ***
