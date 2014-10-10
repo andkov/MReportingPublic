@@ -10,7 +10,7 @@
 
 
 
-<title>Oklahoma’s MIECHV Evaluation</title>
+<title>County-Level Data</title>
 
 <script src="libs/jquery-1.11.0/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -157,17 +157,204 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </div>
 
 <div id="header">
-<h1 class="title">Oklahoma’s MIECHV Evaluation</h1>
+<h1 class="title">County-Level Data</h1>
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#purpose">Purpose</a></li>
+<li><a href="#datasets">Datasets</a><ul>
+<li><a href="#county-characteristics">County Characteristics</a></li>
+<li><a href="#c1-counts">C1 Counts</a></li>
+</ul></li>
+</ul>
+</div>
 
 <hr />
-<div id="the-purpose-of-this-site" class="section level3">
-<h3>The Purpose of this Site</h3>
-<p>Welcome to Oklahoma’s MIECHV Evaluation. This public-facing site provides aggregate reports and de-identified datasets to communicate the results of Oklahoma’s MIECHV evaluation and distribute the</p>
+<hr />
+<div id="purpose" class="section level1">
+<h1>Purpose</h1>
+<p>These datasets are made available to assist other researchers investigating the factors affecting Oklahoma families. If you have questions, please post a comment at the bottom of this page.</p>
+<hr />
+<hr />
 </div>
-<div id="structure-of-this-site" class="section level3">
-<h3>Structure of this Site</h3>
+<div id="datasets" class="section level1">
+<h1>Datasets</h1>
+<p>The following datasets have one row for each Oklahoma County.</p>
+<hr />
+<div id="county-characteristics" class="section level2">
+<h2>County Characteristics</h2>
+<p><a href="./data_phi_free/CountyCharacteristics.zip">Download</a>.</p>
+<p>The dataset indicates a county’s characteristics, with the following fields:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Variable Name</th>
+<th align="left">Type</th>
+<th align="left">Variable Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">CountyID</td>
+<td align="left">integer</td>
+<td align="left">Alphabetically-ordered ID of a county. Notice that <code>Mc</code> precedes <code>M</code>.</td>
+</tr>
+<tr class="even">
+<td align="left">CountyName</td>
+<td align="left">string</td>
+<td align="left">The name of the county.</td>
+</tr>
+<tr class="odd">
+<td align="left">GeoID</td>
+<td align="left">integer</td>
+<td align="left">The county’s FIPS code, which is useful for merging with Census data, or cartographic polygons.</td>
+</tr>
+<tr class="even">
+<td align="left">FundingC1</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county receives funding for C1.</td>
+</tr>
+<tr class="odd">
+<td align="left">FundingOcap</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county receives funding for OCAP.</td>
+</tr>
+<tr class="even">
+<td align="left">C1LeadNurseRegion</td>
+<td align="left">integer</td>
+<td align="left">Oklahoma’s 77 counties are categorized into roughly 20 regions, each with it’s own “lead nurse”.</td>
+</tr>
+<tr class="odd">
+<td align="left">Urban</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county is either Oklahoma or Tulsa (because they operate differently for HV services).</td>
+</tr>
+<tr class="even">
+<td align="left">LabelLongitude</td>
+<td align="left">float</td>
+<td align="left">The longitude of a good place to label the county with on a map.</td>
+</tr>
+<tr class="odd">
+<td align="left">LabelLatitude</td>
+<td align="left">float</td>
+<td align="left">The latitude of a good place to label the county with on a map.</td>
+</tr>
+<tr class="even">
+<td align="left">MiechvEvaluation</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county participates in the 2011 MIECHV “Evaluation Grant”.</td>
+</tr>
+<tr class="odd">
+<td align="left">MiechvFormula</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county participates in the 2011 MIECHV “Formula Grant”.</td>
+</tr>
+<tr class="even">
+<td align="left">WicNeedPopInfant</td>
+<td align="left">integer</td>
+<td align="left">The number of “infants in need”, as estimated by WIC.</td>
+</tr>
+<tr class="odd">
+<td align="left">WicNeedPopTotal</td>
+<td align="left">integer</td>
+<td align="left">The number of “people in need”, as estimated by WIC.</td>
+</tr>
+<tr class="even">
+<td align="left">WicYear</td>
+<td align="left">integer</td>
+<td align="left">The of the WIC estimates of need.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="c1-counts" class="section level2">
+<h2>C1 Counts</h2>
+<p><a href="./data_phi_free/C1CountCounty.zip">Download</a>.</p>
+<p>The dataset indicates something about C1 (i’m including this for now as a place holder)</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Variable Name</th>
+<th align="left">Type</th>
+<th align="left">Variable Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">CountyID</td>
+<td align="left">integer</td>
+<td align="left">Alphabetically-ordered ID of a county. Notice that <code>Mc</code> precedes <code>M</code>.</td>
+</tr>
+<tr class="even">
+<td align="left">CountyName</td>
+<td align="left">string</td>
+<td align="left">The name of the county.</td>
+</tr>
+<tr class="odd">
+<td align="left">GeoID</td>
+<td align="left">integer</td>
+<td align="left">The county’s FIPS code, which is useful for merging with Census data, or cartographic polygons.</td>
+</tr>
+<tr class="even">
+<td align="left">FundingC1</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county receives funding for C1.</td>
+</tr>
+<tr class="odd">
+<td align="left">FundingOcap</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county receives funding for OCAP.</td>
+</tr>
+<tr class="even">
+<td align="left">C1LeadNurseRegion</td>
+<td align="left">integer</td>
+<td align="left">Oklahoma’s 77 counties are categorized into roughly 20 regions, each with it’s own “lead nurse”.</td>
+</tr>
+<tr class="odd">
+<td align="left">Urban</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county is either Oklahoma or Tulsa (because they operate differently for HV services).</td>
+</tr>
+<tr class="even">
+<td align="left">LabelLongitude</td>
+<td align="left">float</td>
+<td align="left">The longitude of a good place to label the county with on a map.</td>
+</tr>
+<tr class="odd">
+<td align="left">LabelLatitude</td>
+<td align="left">float</td>
+<td align="left">The latitude of a good place to label the county with on a map.</td>
+</tr>
+<tr class="even">
+<td align="left">MiechvEvaluation</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county participates in the 2011 MIECHV “Evaluation Grant”.</td>
+</tr>
+<tr class="odd">
+<td align="left">MiechvFormula</td>
+<td align="left">bit</td>
+<td align="left">Indicates if the county participates in the 2011 MIECHV “Formula Grant”.</td>
+</tr>
+<tr class="even">
+<td align="left">WicNeedPopInfant</td>
+<td align="left">integer</td>
+<td align="left">The number of “infants in need”, as estimated by WIC.</td>
+</tr>
+<tr class="odd">
+<td align="left">WicNeedPopTotal</td>
+<td align="left">integer</td>
+<td align="left">The number of “people in need”, as estimated by WIC.</td>
+</tr>
+<tr class="even">
+<td align="left">WicYear</td>
+<td align="left">integer</td>
+<td align="left">The of the WIC estimates of need.</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 

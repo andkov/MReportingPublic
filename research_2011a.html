@@ -91,40 +91,58 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </style>
 <div class="container-fluid main-container">
 
-
 <div class="navbar navbar-default navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
       <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <!-- navbar will automatically collapse into a button when the screen size is too small–which is much friendlier to mobile devices: http://brizzled.clapper.org/blog/2012/03/05/using-twitter-bootstrap-with-jekyll/ -->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="brand" href="/">MReporting Public</a>
+      <a class="brand" href="/MReportingPublic/">MReporting Public</a>
       <div class="nav-collapse collapse">
         <ul class="nav">
         
           <li class="dropdown">
             <a href="funding" class="dropdown-toggle" data-toggle="dropdown">Research Products<b class="caret"></b></a>
             <ul class="dropdown-menu">
-               <li class="nav-header">2014</li>
-               <li class="divider">2014 Year</li>
-               <li class="nav-header">2011</li>
-               <li class="divider">2011 Year</li>
+               <li class="nav-header">Beginning 2011</li>
                <li><a href="research_2011a.html">HRSA/ACF D89MC23154</a></li>
             </ul>
-          </li>    
+          </li>
+          
+          <li class="dropdown">
+            <a href="funding" class="dropdown-toggle" data-toggle="dropdown">Other Products<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+               <li class="nav-header">Software</li>
+               <li><a href="auxiliary_redcapr.html">REDCapR</a></li>
+               <li class="divider"/>
+               <li class="nav-header">Practices</li>
+               <li><a href="auxiliary_redcap_patterns.html">REDCap Patterns & Examples</a></li>
+               <li class="divider"/>
+               <li class="nav-header">PHI-Free Data</li>
+               <li><a href="auxiliary_data_county.html">County-Level</a></li>
+            </ul>
+          </li>
           
           <li class="dropdown">
             <a href="funding" class="dropdown-toggle" data-toggle="dropdown">Funding<b class="caret"></b></a>
             <ul class="dropdown-menu">
-               <li class="nav-header">2014</li>
-               <li class="divider">2014 Year</li>
-               <li class="nav-header">2011</li>
-               <li class="divider">2011 Year</li>
+               <li class="nav-header">Beginning 2015</li>
+               <li><a href="funding_2015a.html">HRSA/ACF (2015a)</a></li>
+               <li class="divider"/>
+               <li class="nav-header">Beginning 2011</li>
                <li><a href="funding_2011a.html">HRSA/ACF D89MC23154</a></li>
             </ul>
-          </li>         
+          </li>
+          
+          <li class="dropdown">
+            <a href="funding" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+               <li><a href="about_collaborators.html">Collaborators</a></li>
+            </ul>
+          </li>
           
         </ul>
         <ul class="nav pull-right">
@@ -146,12 +164,22 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#resources-and-files">Resources and Files</a></li>
-<li><a href="#brief-summary-of-external-evaluation-aims">Brief Summary of External Evaluation Aims</a></li>
+<li><a href="#brief-summary-of-external-evaluation-aims">Brief Summary of External Evaluation Aims</a><ul>
+<li><a href="#systems-coordination">1. Systems Coordination</a></li>
+<li><a href="#program-marketing">2. Program Marketing</a></li>
+<li><a href="#client-enrollment-and-retention">3. Client Enrollment and Retention</a></li>
+<li><a href="#service-need">4. Service Need</a></li>
+<li><a href="#hv-effectiveness-and-improvement">5. HV Effectiveness and Improvement</a></li>
+<li><a href="#auxiliary-products">Auxiliary Products</a></li>
+<li><a href="#impact">Impact</a></li>
+</ul></li>
 <li><a href="#evaluation-implementation-strategy">Evaluation Implementation Strategy</a></li>
+<li><a href="#collaborators-and-stakeholders">Collaborators and Stakeholders</a></li>
 <li><a href="#additional-information">Additional Information</a></li>
 </ul>
 </div>
 
+<hr />
 <hr />
 <div id="overview" class="section level1">
 <h1>Overview</h1>
@@ -159,7 +187,9 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <blockquote>
 <p>Evaluates MIECHV expansion and enhancement of Evidence-based Home Visitation programs in four Oklahoma counties.</p>
 </blockquote>
-<p>This page contains the products from the 2011 funded proposal, <a href="https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&amp;GrantNo=D89MC23154&amp;FY=2012">HRSA/ACF D89MC23154</a>. OUHSC CCAN Independent Evaluation of the State of Oklahoma Competitive Maternal, Infant, and Early Childhood Home Visiting (MIECHV) Project.</p>
+<p>This page contains the products from the 2011 funded proposal, <a href="https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&amp;GrantNo=D89MC23154&amp;FY=2012">HRSA/ACF D89MC23154</a>: “OUHSC CCAN Independent Evaluation of the State of Oklahoma Competitive Maternal, Infant, and Early Childhood Home Visiting (MIECHV) Project.”</p>
+<hr />
+<hr />
 </div>
 <div id="resources-and-files" class="section level1">
 <h1>Resources and Files</h1>
@@ -168,30 +198,140 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href="./funding_2011a_logic_model.png">Expansion Program Logic Model</a></li>
 </ul>
 <hr />
+<hr />
 </div>
 <div id="brief-summary-of-external-evaluation-aims" class="section level1">
 <h1>Brief Summary of External Evaluation Aims</h1>
-<p>Oklahomaâ€™s Maternal, Infant, Early Childhood Home Visitation (MIECHV) Expansion project has two primary branches of evaluation, the <em>internal</em> evaluation conducted by the Oklahoma State Dept. of Health (OSDH) and the <em>external</em> evaluation conducted by the OU Health Sciences Center, Center on Child Abuse and Neglect (CCAN). This summary report describes the progress to date for the external evaluation which uses a mixedâ€method (quantitative/qualitative) approach to inform and evaluate change in five specific targeted areas identified for improvement:</p>
-<ol style="list-style-type: decimal">
-<li><em>Systems Coordination</em>: Evaluate the impact of existing and developing coordination between EBHV programs and other support services.</li>
-<li><em>Program Marketing</em>: Inform, develop, and evaluate the outreach efforts of MIECHV-funded marketing.</li>
-<li><em>Client Enrollment</em> and Retention: Inform, develop, and evaluate new methods for engagement and retention of clients in EBHV services.</li>
-<li><em>Service Need</em>: Evaluate the overall need for child and family services within each community.<br /></li>
-<li><em>HV Effectiveness and Improvement</em>: Establish a quality improvement and control system and evaluate effectiveness of the home visitation and early childhood services continuum.</li>
-</ol>
+<div id="description" class="section level4">
+<h4>Description</h4>
+<p>Oklahoma’s Maternal, Infant, Early Childhood Home Visitation (MIECHV) Expansion project has two primary branches of evaluation, the <em>internal</em> evaluation conducted by the Oklahoma State Dept. of Health (OSDH) and the <em>external</em> evaluation conducted by the OU Health Sciences Center, Center on Child Abuse and Neglect (CCAN). This summary report describes the progress to date for the external evaluation which uses a mixedâ€method (quantitative/qualitative) approach to inform and evaluate change in five specific targeted areas identified for improvement:</p>
+<hr />
+</div>
+<div id="systems-coordination" class="section level2">
+<h2>1. Systems Coordination</h2>
+<div id="description-1" class="section level4">
+<h4>Description</h4>
+<p>Evaluate the impact of existing and developing coordination between EBHV programs and other support services.</p>
+</div>
+<div id="publicly-available-reports" class="section level4">
+<h4>Publicly Available Reports</h4>
+<ul>
+<li><a href="./reports/2011/MbrFigures.html">Wats1 Local</a>. This vignette produces the graphs included in the initial MBR manuscript.</li>
+<li><a href="http://htmlpreview.github.io/?https://github.com/OuhscBbmc/Wats/blob/master/inst/doc/MbrFigures.html">Wats1 Remote</a>. This vignette produces the graphs included in the initial MBR manuscript.</li>
+<li><a href="./reports/2011/OkFertilityWithIntercensalEstimates.html">Wats2 Local</a>. The MBR manuscript demonstrates WATS plots with data prepared for Rodgers, St. John, &amp; Coleman (2005). In that paper and the MBR manuscript, the denominator of the GFR (General Fertility Rate) is the initial 1990 county population of females ages 15-44.</li>
+<li><a href="http://htmlpreview.github.io/?https://github.com/OuhscBbmc/Wats/blob/master/inst/doc/OkFertilityWithIntercensalEstimates.html">Wats2 Remote</a>. The MBR manuscript demonstrates WATS plots with data prepared for Rodgers, St. John, &amp; Coleman (2005). In that paper and the MBR manuscript, the denominator of the GFR (General Fertility Rate) is the initial 1990 county population of females ages 15-44.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="program-marketing" class="section level2">
+<h2>2. Program Marketing</h2>
+<div id="description-2" class="section level4">
+<h4>Description</h4>
+<p>Inform, develop, and evaluate the outreach efforts of MIECHV-funded marketing.</p>
+</div>
+<div id="publicly-available-reports-1" class="section level4">
+<h4>Publicly Available Reports</h4>
+<ul>
+<li><a href="./reports/2011/MbrFigures.html">Wats1 Local</a>. This vignette produces the graphs included in the initial MBR manuscript.</li>
+<li><a href="http://htmlpreview.github.io/?https://github.com/OuhscBbmc/Wats/blob/master/inst/doc/MbrFigures.html">Wats1 Remote</a>. This vignette produces the graphs included in the initial MBR manuscript.</li>
+<li><a href="http://htmlpreview.github.io/?https://github.com/OuhscBbmc/Wats/blob/master/inst/doc/OkFertilityWithIntercensalEstimates.html">Wats2 Remote</a>. The MBR manuscript demonstrates WATS plots with data prepared for Rodgers, St. John, &amp; Coleman (2005). In that paper and the MBR manuscript, the denominator of the GFR (General Fertility Rate) is the initial 1990 county population of females ages 15-44.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="client-enrollment-and-retention" class="section level2">
+<h2>3. Client Enrollment and Retention</h2>
+<div id="description-3" class="section level4">
+<h4>Description</h4>
+<p>Inform, develop, and evaluate new methods for engagement and retention of clients in EBHV services.</p>
+</div>
+<div id="publicly-available-reports-2" class="section level4">
+<h4>Publicly Available Reports</h4>
+<ul>
+<li><a href="http://htmlpreview.github.io/?https://github.com/OuhscBbmc/Wats/blob/master/inst/doc/MbrFigures.html">Wats1 Remote</a>. This vignette produces the graphs included in the initial MBR manuscript.</li>
+<li><a href="./reports/2011/OkFertilityWithIntercensalEstimates.html">Wats2 Local</a>. The MBR manuscript demonstrates WATS plots with data prepared for Rodgers, St. John, &amp; Coleman (2005). In that paper and the MBR manuscript, the denominator of the GFR (General Fertility Rate) is the initial 1990 county population of females ages 15-44.</li>
+<li><a href="http://htmlpreview.github.io/?https://github.com/OuhscBbmc/Wats/blob/master/inst/doc/OkFertilityWithIntercensalEstimates.html">Wats2 Remote</a>. The MBR manuscript demonstrates WATS plots with data prepared for Rodgers, St. John, &amp; Coleman (2005). In that paper and the MBR manuscript, the denominator of the GFR (General Fertility Rate) is the initial 1990 county population of females ages 15-44.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="service-need" class="section level2">
+<h2>4. Service Need</h2>
+<div id="description-4" class="section level4">
+<h4>Description</h4>
+<p>Evaluate the overall need for child and family services within each community.</p>
+</div>
+<div id="publicly-available-reports-3" class="section level4">
+<h4>Publicly Available Reports</h4>
+<ul>
+<li><a href="./reports/2011/MbrFigures.html">Wats1 Local</a>. This vignette produces the graphs included in the initial MBR manuscript.</li>
+<li><a href="./reports/2011/OkFertilityWithIntercensalEstimates.html">Wats2 Local</a>. The MBR manuscript demonstrates WATS plots with data prepared for Rodgers, St. John, &amp; Coleman (2005). In that paper and the MBR manuscript, the denominator of the GFR (General Fertility Rate) is the initial 1990 county population of females ages 15-44.</li>
+<li><a href="http://htmlpreview.github.io/?https://github.com/OuhscBbmc/Wats/blob/master/inst/doc/OkFertilityWithIntercensalEstimates.html">Wats2 Remote</a>. The MBR manuscript demonstrates WATS plots with data prepared for Rodgers, St. John, &amp; Coleman (2005). In that paper and the MBR manuscript, the denominator of the GFR (General Fertility Rate) is the initial 1990 county population of females ages 15-44.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="hv-effectiveness-and-improvement" class="section level2">
+<h2>5. HV Effectiveness and Improvement</h2>
+<div id="description-5" class="section level4">
+<h4>Description</h4>
+<p>Establish a quality improvement and control system and evaluate effectiveness of the home visitation and early childhood services continuum.</p>
+</div>
+<div id="publicly-available-reports-4" class="section level4">
+<h4>Publicly Available Reports</h4>
+<ul>
+<li><a href="./reports/2011/MbrFigures.html">Wats1 Local</a>. This vignette produces the graphs included in the initial MBR manuscript.</li>
+<li><a href="http://htmlpreview.github.io/?https://github.com/OuhscBbmc/Wats/blob/master/inst/doc/OkFertilityWithIntercensalEstimates.html">Wats2 Remote</a>. The MBR manuscript demonstrates WATS plots with data prepared for Rodgers, St. John, &amp; Coleman (2005). In that paper and the MBR manuscript, the denominator of the GFR (General Fertility Rate) is the initial 1990 county population of females ages 15-44.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="auxiliary-products" class="section level2">
+<h2>Auxiliary Products</h2>
+<div id="description-6" class="section level4">
+<h4>Description</h4>
+<p>There was a need to examine other questions and distribute the reports to stakeholders. The reports in this collection do not fit cleanly in the investigation’s five formal aims.</p>
+</div>
+<div id="publicly-available-reports-5" class="section level4">
+<h4>Publicly Available Reports</h4>
+<ul>
+<li><a href="./reports/2011/OsdhMaps.html">Static County Maps</a>. It was helpful to supplement the previous reports with these county-level maps, in order to for the reader to place statistics in context of a county’s geography and demographics. (Also available as a <a href="./reports/2011/OsdhMaps.pdf">pdf</a> for printed handouts.)</li>
+<li><a href="https://raw.githubusercontent.com/OuhscBbmc/OsctrAstonWeber/master/Analysis/Spatial/AnimationImages/AmputationAnimatedRate.gif">Animated County Maps</a>. The 5-year longitudinal progression of county amputation rates are animated in this graph.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="impact" class="section level2">
+<h2>Impact</h2>
 <p>These five targeted aims of the evaluation intersect with all four of the national MIECHV areas of relevance. The data obtained and evaluated will inform program planning and implementation (aims 1, 2, 3, 4, &amp; 5), will evaluate effectiveness of planned strategies that are intended to enhance and sustain implementation (aims 1, 2, 3, &amp; 5), will evaluate the capacity to support and monitor quality of scaled up evidence-based (EB) home visitation service continuum (aim 1), and will assess the effectiveness of home visitation on key outcomes that overlap with the national MIECHV benchmarks and constructs (aim 5).</p>
 <p>See the most recent protocol descriptions at <a href="https://github.com/OuhscCcanMiechvEvaluation/MReporting/downloads">https://github.com/OuhscCcanMiechvEvaluation/MReporting/downloads</a> or at the file server location: <code>.../MIECHV/IRB/HRSA Revised Protocol/</code>, (which is behind the OUHSC VPN).</p>
 <hr />
+<hr />
+</div>
 </div>
 <div id="evaluation-implementation-strategy" class="section level1">
 <h1>Evaluation Implementation Strategy</h1>
 <p>The overall analysis is progressing from a set of general inquiries to a set of focused protocol subaims. Our current reports do not map 1-to-1 to our protocol subaims. Our intermediate reporting structure allows us to communicate better with stakeholders and other researchers (because the organization of issues can be different from their perspective). The reports are currently structured so that we can approach others with a single document, instead of several scattered documents. Consequently, the following subaims are frequently addressed by several reports, and multiple subaims can refer to a common report. By the conclusion of our external evaluation, each subaim will be addressed by a single, exclusive report.</p>
 <p>We use a literate programming framework and code repository that facilitates agile and reproducible research. We invite readers to view the analysis code and resulting documents housed in this <a href="https://github.com/OuhscCcanMiechvEvaluation/MReporting">GitHub repository</a>. However, we ask that you not pass the GitHub username and password to anyone who did not received it from us. If you know someone who would like to review the repository, please have them contact <a href="william-beasley@ouhsc.edu">us</a> and we likely will grant them permission. (Even with the username, no PHI is accessible from the repository; an authorized OUHSC user account is required.)</p>
+<hr />
+<hr />
+</div>
+<div id="collaborators-and-stakeholders" class="section level1">
+<h1>Collaborators and Stakeholders</h1>
+<p>?David, do you want a list of people like OSDH, OUHSC, OHCA… Anyone else?</p>
+<ul>
+<li><a href="./about_collaborators.html#ouhsc-pediatrics">OUHSC Pediatrics</a></li>
+<li><a href="./about_collaborators.html#osdh">OSDH</a></li>
+<li><a href="./about_collaborators.html#ohca">OHCA</a></li>
+</ul>
+<hr />
+<hr />
 </div>
 <div id="additional-information" class="section level1">
 <h1>Additional Information</h1>
 <ul>
-<li>For more information about the grant proposal, please see the <a href="./funding_2011a_.html">funding page</a>.</li>
+<li>For more information about the grant proposal, please see the project’s <a href="./funding_2011a.html">funding page</a>.</li>
 </ul>
 </div>
 

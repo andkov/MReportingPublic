@@ -1,6 +1,6 @@
 ---
 title: "Funding: HRSA/ACF D89MC23154"
-
+layout: page
 ---
 
 ***
@@ -11,8 +11,7 @@ Project Duration: 2011-2015
 
 > Evaluates MIECHV expansion and enhancement of Evidence-based Home Visitation programs in four Oklahoma counties.
 
-This page contains the material for 2011's funded proposal, [HRSA/ACF D89MC23154](https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&GrantNo=D89MC23154&FY=2012).
-OUHSC CCAN Independent Evaluation of the State of Oklahoma Competitive Maternal, Infant, and Early Childhood Home Visiting (MIECHV) Project. 
+This page contains the material for 2011's funded proposal, [HRSA/ACF D89MC23154](https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&GrantNo=D89MC23154&FY=2012): "OUHSC CCAN Independent Evaluation of the State of Oklahoma Competitive Maternal, Infant, and Early Childhood Home Visiting (MIECHV) Project."
 
 # Resources and Files
 Understanding of this proposal may benefit from the following resources: 
@@ -27,7 +26,7 @@ The purpose of the MIECHV Grant is to strengthen the system of early childhood h
 ## Goal 1
 Develop a sustainable, MIECHV home visitation program infrastructure of selected, multiple models matching consumer needs to program model goals.
 
- * **Objective 1**: Utilizing the completed Needs Assessment, choose evidence-based home visitation models for implementation in Oklahoma’s at-risk communities. This objective was completed during Year 1. Models chosen include Nurse-Family Partnership, Healthy Families America, and Parents as Teachers.
+ * **Objective 1**: Utilizing the completed Needs Assessment, choose evidence-based home visitation models for implementation in Oklahoma's at-risk communities. This objective was completed during Year 1. Models chosen include Nurse-Family Partnership, Healthy Families America, and Parents as Teachers.
  
  * **Objective 2**: Develop home visitation coalitions in each at-risk community to assist with coordinating home visitation services and to assure families are connected with the appropriate home visiting program. This objective was initiated during Year 1 and will continue throughout the duration of the project.
  
@@ -59,8 +58,20 @@ Develop or enhance implementation of existing statewide and county level collabo
  * **Objective 2**: Utilize the state Home Visitation Leadership Advisory Coalition, the Interagency Child Abuse Prevention Task Force and the Early Childhood Advisory Council as partners and collaborators. This objective was initiated during the writing of the grant and will continue through the duration of the grant.
  
  * **Objective 3**: During Year 1 assure each community has a Community Connector dedicated to marketing the home visitation programs, connecting potential participants to programs and facilitating opportunities for home visitation professionals to meet together with other community service providers.
- 
+
+***
+# Logic Model
+![Alt text](./funding_2011a_logic_model.png "Logic Model")
+
 # Additional Information
  * For more information about the proposal, please see the
 [official HRSA page](https://perf-data.hrsa.gov/mchb/DGISReports/Abstract/AbstractDetails.aspx?Source=TVIS&GrantNo=D89MC23154&FY=2012).
  * For more information about the outcomes, please see the project's [Research Products](./research_2011a.html) page.
+
+***
+# Collaborators and Stakeholders
+?David, do you want a list of people like OSDH, OUHSC, OHCA... Anyone else?
+
+ * [OUHSC Pediatrics](./about_collaborators.html#ouhsc-pediatrics)
+ * [OSDH](./about_collaborators.html#osdh)
+ * [OHCA](./about_collaborators.html#ohca)
