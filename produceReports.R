@@ -43,4 +43,4 @@ for( pathFile in pathFilesToBuild ) {
 }
 
 # base::system("bundle exec jekyll build")
-# Or run this from the terminal to keep RStudio free to execute it's own stuff: `jekyll serve`
+# Or run this from the terminal to keep RStudio free to execute it's own stuff: `bundle exec jekyll serve`
